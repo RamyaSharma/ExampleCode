@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    
+    NSLog(@"inside the appdelegate .m file ");
     
     self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     self.your=[[DatePickerViewController alloc]initWithNibName:@"DatePickerViewController" bundle:nil];
